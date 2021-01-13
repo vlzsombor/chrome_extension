@@ -1,0 +1,21 @@
+{
+  "name":"Inject DOM",
+  "description":"http://stackoverflow.com/questions/14068879",
+  "version":"1",
+  "manifest_version":2,
+  "content_scripts": [
+      {
+        "matches": ["https://www.magyarnemet.hu/*","https://szotar.magyarnemet.hu/*"],
+        "js": ["index.js"]
+      }
+  ],
+  "permissions": [
+      "unlimitedStorage",
+      "storage"
+  ]
+}
+
+
+
+
+
